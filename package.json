@@ -1,5 +1,5 @@
 {
-  "name": "alexa-plex",
+  "name": "alexa-plex-es",
   "version": "1.0.0",
   "description": "Alexa (Amazon Echo) app for interacting with a Plex Server and controlling client playback",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OverloadUT/alexa-plex"
+    "url": "https://github.com/dallben/alexa-plex-es"
   },
   "author": "Greg \"OverloadUT\" Laabs <OverloadUT@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OverloadUT/alexa-plex/issues"
   },
-  "homepage": "https://github.com/OverloadUT/alexa-plex",
+  "homepage": "https://github.com/dallben/alexa-plex-es",
   "devDependencies": {
     "aws-sdk": "^2.2.20",
     "chai": "^3.0.0",
@@ -38,10 +38,10 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "alexa-app": "OverloadUT/alexa-app#develop",
+    "alexa-app": "dallben/alexa-app-es#develop",
     "clj-fuzzy": "^0.3.1",
     "dotenv": "^1.2.0",
-    "plex-api": "OverloadUT/node-plex-api#develop",
+    "plex-api": "dallben/node-plex-api-es#develop",
     "plex-api-pinauth": "^0.1.0",
     "q": "^1.4.1"
   }
