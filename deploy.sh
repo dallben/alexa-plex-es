@@ -7,7 +7,7 @@ mkdir install
 cd ..
 npm install --prefix dist/install .
 rm dist/dist.zip
-cd dist/install/node_modules/alexa-plex/
+cd dist/install/node_modules/alexa-plex-es/
 zip -r ../../../dist.zip * .env
 echo files are ready
 cd ..
