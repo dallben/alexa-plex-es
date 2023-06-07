@@ -1,81 +1,89 @@
 {
   "intents": [
     {
-      "intent": "SetupIntent",
-      "slots": []
+      "name": "AMAZON.CancelIntent",
+      "samples": []
     },
     {
-      "intent": "ContinueSetupIntent",
-      "slots": []
+      "name": "AMAZON.HelpIntent",
+      "samples": []
     },
     {
-      "intent": "BeginSetupIntent",
-      "slots": []
+      "name": "AMAZON.StopIntent",
+      "samples": []
     },
     {
-      "intent": "AuthorizeMeIntent",
-      "slots": []
+      "name": "AMAZON.NavigateHomeIntent",
+      "samples": []
     },
     {
-      "intent": "WhatsNewIntent",
-      "slots": []
-    },
-    {
-      "intent": "ChangeSettingsIntent",
-      "slots": []
-    },
-    {
-      "intent": "OnDeckIntent",
-      "slots": []
-    },
-    {
-      "intent": "AMAZON.YesIntent"
-    },
-    {
-      "intent": "AMAZON.NoIntent"
-    },
-    {
-      "intent": "StartShowIntent",
+      "name": "PlayMediaIntent",
+      "samples": [
+        "reproducir {mediaItem}",
+        "iniciar {mediaItem}",
+        "poner {mediaItem}"
+      ],
       "slots": [
         {
-          "name": "showName",
-          "type": "SHOWNAME"
+          "name": "mediaItem",
+          "type": "MediaItems"
         }
       ]
     },
     {
-      "intent": "StartRandomShowIntent",
-      "slots": [
-        {
-          "name": "showName",
-          "type": "SHOWNAME"
-        }
+      "name": "PauseIntent",
+      "samples": [
+        "pausar",
+        "detener"
       ]
     },
     {
-      "intent": "StartHighRatedEpisodeIntent",
-      "slots": [
-        {
-          "name": "showName",
-          "type": "SHOWNAME"
-        }
+      "name": "ResumeIntent",
+      "samples": [
+        "continuar",
+        "reanudar"
       ]
     },
     {
-      "intent": "StartSpecificEpisodeIntent",
-      "slots": [
-        {
-          "name": "showName",
-          "type": "SHOWNAME"
-        },
-        {
-          "name": "episodeNumber",
-          "type": "NUMBER"
-        },
-        {
-          "name": "seasonNumber",
-          "type": "NUMBER"
-        }
+      "name": "NextIntent",
+      "samples": [
+        "siguiente",
+        "próximo"
+      ]
+    },
+    {
+      "name": "PreviousIntent",
+      "samples": [
+        "anterior",
+        "previo"
+      ]
+    },
+    {
+      "name": "ShuffleIntent",
+      "samples": [
+        "mezclar",
+        "barajar"
+      ]
+    },
+    {
+      "name": "LoopOnIntent",
+      "samples": [
+        "activar repetición",
+        "encender repetición"
+      ]
+    },
+    {
+      "name": "LoopOffIntent",
+      "samples": [
+        "desactivar repetición",
+        "apagar repetición"
+      ]
+    },
+    {
+      "name": "HelpIntent",
+      "samples": [
+        "ayuda",
+        "¿Qué puedo hacer aquí?"
       ]
     }
   ]
