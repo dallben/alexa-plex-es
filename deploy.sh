@@ -15,5 +15,5 @@ cd ..
 cd ..
 cd ..
 echo uploading zip file, please wait...
-aws lambda update-function-code --zip-file fileb://dist/dist.zip --function-name alexa-plex
+aws lambda update-function-code --zip-file fileb://dist/dist.zip --function-name alexa-plex-es
 echo upload is done, exiting.
